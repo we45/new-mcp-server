@@ -1,0 +1,10 @@
+[project]
+name = "new-mcp-server"
+version = "0.1.0"
+description = "A tiny notes MCP server (demo)"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.0.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
